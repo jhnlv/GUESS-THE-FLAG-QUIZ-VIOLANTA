@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #e0e3eb;
+    background-image: url('./bg.jpg');
+    background-size: contain;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+}
+
+.description {
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    height: 100vh;
+    width: 50%;
+}
+
+h1#gtitle{
+    font-family: 'Lexend', sans-serif;
+    color: darkslategray;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 70px;
+    margin-top: 120px;
+}
+
+p#shdescrip{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 140px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+p#myname{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.header{
+    background-color: darkslategrey;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 340px;
+    text-align: center;
+    color: #fff;
+}
+
+.flag-container {
+    margin: 10px;
+}
+
+#flag-img {
+    max-width: 100%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    width: 92%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+button {
+    padding: 6px 20px;
+    font-size: 17px;
+    background-color: darkslategrey;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9ab1c9;
+}
+
+p#result {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
